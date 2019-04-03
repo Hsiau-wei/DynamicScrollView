@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <me.tictok.library.DynamicScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elegantTextHeight="true"
+                android:lineSpacingExtra="8dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/text"
+                android:textColor="#444546"
+                android:textSize="18sp" />
+
+            <!--<HorizontalScrollView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="200dp"-->
+                <!--android:background="#00ffff">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:elegantTextHeight="true"-->
+                    <!--android:lineSpacingExtra="8dp"-->
+                    <!--android:paddingStart="16dp"-->
+                    <!--android:paddingEnd="16dp"-->
+                    <!--android:lines="6"-->
+                    <!--android:text="@string/text"-->
+                    <!--android:textColor="#444546"-->
+                    <!--android:textSize="18sp" />-->
+
+            <!--</HorizontalScrollView>-->
+
+            <!--<android.support.v4.widget.NestedScrollView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="200dp"-->
+                <!--android:background="#ffff00">-->
+
+                <!--<TextView-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:elegantTextHeight="true"-->
+                    <!--android:lineSpacingExtra="8dp"-->
+                    <!--android:paddingStart="16dp"-->
+                    <!--android:paddingEnd="16dp"-->
+                    <!--android:text="@string/text"-->
+                    <!--android:textColor="#444546"-->
+                    <!--android:textSize="18sp" />-->
+
+            <!--</android.support.v4.widget.NestedScrollView>-->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elegantTextHeight="true"
+                android:lineSpacingExtra="8dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:text="@string/text"
+                android:textColor="#444546"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </me.tictok.library.DynamicScrollView>
+
+</LinearLayout>
